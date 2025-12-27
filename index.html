@@ -1,3 +1,4 @@
+```html
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,7 +7,7 @@
   <meta name="description" content="OJCmed builds clinical apps for cardiologists, intensivists, and medical doctors." />
   <title>OJCmed — Clinical Apps for Physicians</title>
 
-  <!-- Open Graph (nice previews when shared) -->
+  <!-- Open Graph -->
   <meta property="og:title" content="OJCmed — Clinical Apps for Physicians" />
   <meta property="og:description" content="OJCmed develops practical, clinician-focused apps for cardiology, critical care, and medicine." />
   <meta property="og:type" content="website" />
@@ -306,9 +307,7 @@
     .item b{ font-size: 13px; display:block; margin-bottom: 2px; }
     .item span{ color: var(--muted); font-size: 12.5px; line-height: 1.45; }
 
-    section{
-      margin-top: 22px;
-    }
+    section{ margin-top: 22px; }
 
     .grid{
       display:grid;
@@ -378,7 +377,6 @@
       line-height: 1.5;
     }
 
-    /* responsive */
     @media (max-width: 920px){
       .hero{ grid-template-columns: 1fr; }
       nav{ justify-content:flex-start; }
@@ -392,9 +390,9 @@
     <header>
       <div class="brand" aria-label="OJCmed">
         <div class="logo" aria-hidden="true">
-          <!-- tiny ECG mark -->
           <svg viewBox="0 0 24 24" fill="none">
-            <path d="M2.5 12h4l1.7-4.3L11 17l2.2-6 1.2 3H21.5" stroke="rgba(255,255,255,.92)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2.5 12h4l1.7-4.3L11 17l2.2-6 1.2 3H21.5"
+                  stroke="rgba(255,255,255,.92)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <div>
@@ -406,7 +404,6 @@
       <nav aria-label="Primary">
         <a href="#about">About</a>
         <a href="#focus">Focus</a>
-        <a href="#products">Products</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
@@ -432,12 +429,10 @@
 
           <div class="cta-row">
             <a class="btn primary" href="#contact" aria-label="Contact OJCmed">
-              Get in touch
-              <span aria-hidden="true">→</span>
+              Get in touch <span aria-hidden="true">→</span>
             </a>
-            <a class="btn" href="#products" aria-label="View product focus">
-              What we build
-              <span aria-hidden="true">↘</span>
+            <a class="btn" href="#about" aria-label="Learn about OJCmed">
+              Learn more <span aria-hidden="true">↘</span>
             </a>
           </div>
 
@@ -460,7 +455,8 @@
               <li class="item">
                 <div class="check" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none">
-                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4" stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4"
+                          stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
                 <div>
@@ -471,7 +467,8 @@
               <li class="item">
                 <div class="check" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none">
-                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4" stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4"
+                          stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
                 <div>
@@ -482,7 +479,8 @@
               <li class="item">
                 <div class="check" aria-hidden="true">
                   <svg viewBox="0 0 24 24" fill="none">
-                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4" stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6.5 12.5l3.2 3.2 7.8-8.4"
+                          stroke="rgba(34,197,94,.95)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
                 <div>
@@ -533,36 +531,6 @@
         </div>
       </section>
 
-      <section id="products" aria-label="Products">
-        <div class="card" style="padding: 18px;">
-          <h3 style="margin:0 0 6px; font-size: 16px;">Products</h3>
-          <p style="margin:0; color: var(--muted); font-size: 13px; line-height:1.6;">
-            Add your app names and short descriptions here. If you don’t want to list products yet, keep it as a “coming soon”.
-          </p>
-
-          <div class="grid" style="margin-top: 14px;">
-            <div class="card" style="padding: 16px;">
-              <h4 style="margin:0 0 8px;">Coming soon</h4>
-              <p style="margin:0; color: var(--muted); font-size: 13px; line-height:1.5;">
-                A suite of clinician-first calculators and references for cardiovascular and ICU care.
-              </p>
-            </div>
-            <div class="card" style="padding: 16px;">
-              <h4 style="margin:0 0 8px;">Pilot tools</h4>
-              <p style="margin:0; color: var(--muted); font-size: 13px; line-height:1.5;">
-                Fast bedside utilities designed to reduce friction during consults and rounding.
-              </p>
-            </div>
-            <div class="card" style="padding: 16px;">
-              <h4 style="margin:0 0 8px;">Support</h4>
-              <p style="margin:0; color: var(--muted); font-size: 13px; line-height:1.5;">
-                Documentation, feedback loops, and issue tracking—built around clinician input.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section id="contact" aria-label="Contact">
         <div class="card" style="padding: 18px;">
           <h3 style="margin:0 0 6px; font-size: 16px;">Contact</h3>
@@ -574,14 +542,13 @@
             <div class="input" title="Copy this email address">
               <span style="color: var(--muted2); font-size: 12px;">Email</span>
               <input id="email" value="contact@ojcmed.com" readonly aria-label="OJCmed email address" />
-              <button class="btn" style="padding: 9px 10px; border-radius: 12px;" onclick="copyEmail()" aria-label="Copy email">
+              <button class="btn" style="padding: 9px 10px; border-radius: 12px;" onclick="copyEmail(event)" aria-label="Copy email">
                 Copy
               </button>
             </div>
 
             <a class="btn" href="mailto:contact@ojcmed.com?subject=OJCmed%20Inquiry" aria-label="Email OJCmed">
-              Send email
-              <span aria-hidden="true">↗</span>
+              Send email <span aria-hidden="true">↗</span>
             </a>
           </div>
 
@@ -596,8 +563,6 @@
         <div style="display:flex; gap: 10px; flex-wrap:wrap;">
           <a href="#about">About</a>
           <span style="opacity:.35;">•</span>
-          <a href="#products">Products</a>
-          <span style="opacity:.35;">•</span>
           <a href="#contact">Contact</a>
         </div>
       </div>
@@ -609,21 +574,22 @@
     document.getElementById("year").textContent = new Date().getFullYear();
 
     // Copy email to clipboard
-    function copyEmail(){
+    function copyEmail(ev){
       const el = document.getElementById("email");
-      el.select();
-      el.setSelectionRange(0, 99999);
       try{
         navigator.clipboard.writeText(el.value);
-        const btn = event.currentTarget;
+        const btn = ev.currentTarget;
         const prev = btn.textContent;
         btn.textContent = "Copied";
         setTimeout(() => btn.textContent = prev, 900);
       } catch(e){
         // fallback
+        el.select();
+        el.setSelectionRange(0, 99999);
         document.execCommand("copy");
       }
     }
   </script>
 </body>
 </html>
+```
