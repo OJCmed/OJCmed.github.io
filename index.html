@@ -343,13 +343,6 @@
       flex-wrap: wrap;
     }
 
-    .contact{
-      display:flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
     .input{
       width: min(420px, 100%);
       display:flex;
@@ -403,7 +396,6 @@
       <nav aria-label="Primary">
         <a href="#about">About</a>
         <a href="#focus">Focus</a>
-        <a href="#contact">Contact</a>
       </nav>
     </header>
 
@@ -529,40 +521,11 @@
           </div>
         </div>
       </section>
-
-      <section id="contact" aria-label="Contact">
-        <div class="card" style="padding: 18px;">
-          <h3 style="margin:0 0 6px; font-size: 16px;">Contact</h3>
-          <p style="margin:0; color: var(--muted); font-size: 13px; line-height:1.6;">
-            Replace the placeholder email below with your real contact address.
-          </p>
-
-          <div class="contact" style="margin-top: 12px;">
-            <div class="input" title="Copy this email address">
-              <span style="color: var(--muted2); font-size: 12px;">Email</span>
-              <input id="email" value="contact@ojcmed.com" readonly aria-label="OJCmed email address" />
-              <button class="btn" style="padding: 9px 10px; border-radius: 12px;" onclick="copyEmail(event)" aria-label="Copy email">
-                Copy
-              </button>
-            </div>
-
-            <a class="btn" href="mailto:contact@ojcmed.com?subject=OJCmed%20Inquiry" aria-label="Email OJCmed">
-              Send email <span aria-hidden="true">↗</span>
-            </a>
-          </div>
-
-          <p class="note">
-            If you’d like, I can also add a simple “Press Kit” section, app screenshots, and real store links once you share them.
-          </p>
-        </div>
-      </section>
-
       <div class="footer" role="contentinfo">
         <div>© <span id="year"></span> OJCmed. All rights reserved.</div>
         <div style="display:flex; gap: 10px; flex-wrap:wrap;">
           <a href="#about">About</a>
           <span style="opacity:.35;">•</span>
-          <a href="#contact">Contact</a>
         </div>
       </div>
     </main>
